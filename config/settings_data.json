@@ -22,9 +22,9 @@
     "share_twitter": true,
     "share_pinterest": true,
     "social_twitter_link": "",
-    "social_facebook_link": "",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "",
-    "social_instagram_link": "",
+    "social_instagram_link": "http:\/\/instagram.com\/shopify",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
@@ -59,51 +59,14 @@
           "announcement_bar_color_text": "#ffffff"
         }
       },
-      "featured-product": {
-        "type": "featured-product",
-        "settings": {
-          "product": "",
-          "show_quantity_selector": true,
-          "show_vendor": false,
-          "enable_dynamic_checkout": false,
-          "show_social_buttons": false
-        }
-      },
       "footer": {
         "type": "footer",
-        "blocks": {
-          "footer-0": {
-            "type": "text",
-            "settings": {
-              "title": "Talk about your business",
-              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
-          "footer-1": {
-            "type": "text",
-            "settings": {
-              "title": "Talk about your business",
-              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
-            }
-          },
-          "footer-2": {
-            "type": "newsletter",
-            "settings": {
-              "title": "Newsletter"
-            }
-          }
-        },
-        "block_order": [
-          "footer-0",
-          "footer-1",
-          "footer-2"
-        ],
         "settings": {
           "show_payment_icons": false,
-          "color_footer_background": "#ebf2ef",
-          "color_footer_heading_text": "#2d4f1e",
-          "color_footer_body_text": "#577b46",
-          "show_locale_selector": true
+          "color_footer_background": "#000000",
+          "color_footer_heading_text": "#ffffff",
+          "color_footer_body_text": "#ffffff",
+          "show_locale_selector": false
         }
       },
       "1600452228643": {
@@ -153,13 +116,39 @@
           "keep_image_ratio": false,
           "enable_secondary_text_color": false
         }
+      },
+      "1600744360693": {
+        "type": "instafeed",
+        "settings": {
+          "heading_font": "helvetica_n4",
+          "heading_size": 20,
+          "feed_width": 100,
+          "html_area": "<!-- -->"
+        }
+      },
+      "1600746318061": {
+        "type": "newsletter",
+        "settings": {
+          "image": "",
+          "title": "Newsletter",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_url": "",
+          "desktop_layout": "right",
+          "mobile_layout": "bottom",
+          "secondary_background": "partial_background",
+          "text_size": "medium",
+          "keep_image_ratio": false,
+          "enable_secondary_text_color": false
+        }
       }
     },
     "content_for_index": [
       "1600452228643",
       "1600455241816",
       "1600463097281",
-      "featured-product"
+      "1600744360693",
+      "1600746318061"
     ]
   },
   "presets": {
