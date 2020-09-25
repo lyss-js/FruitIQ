@@ -74,6 +74,10 @@ sup {
     top: -0.5em;
 }
 
+.bounceOutLeft {
+    animation: unset !important;
+}
+
 button {
     font-family: inherit;
     font-size: 100%;
@@ -88,7 +92,6 @@ a.shop-button {
     font-size: 2.5rem;
     font-family: 'BarlowCondensed-Semibold';
 }
-
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { 
     color: #000 !important; 
     border: unset !important;
@@ -235,18 +238,11 @@ div#nutrition {
 
 img.flavor-bag {
     float:left;
-    margin-left: -100px;
     width: 400px;
 }
 
 img.underline {
     width: 45%;
-}
-
-img.flavor-bag {
-    width: 450px;
-    float: left;
-    margin-left: -100px;
 }
 
 .newsletter-bg {

@@ -1,6 +1,6 @@
 {%- capture image_template -%}
     <div>
-        <div class="image-with-text__media image-with-text__media--{{ section.settings.desktop_layout }}
+        <div class="wow bounceInRight image-with-text__media image-with-text__media--{{ section.settings.desktop_layout }}
                         {% unless section.settings.keep_image_ratio %} image-with-text__media--square{% endunless %}">
 
             {%- if section.settings.image != blank -%}
@@ -23,19 +23,19 @@
                                                             {% if section.settings.mobile_layout == 'top' %} image-with-text__content--mobile-image-top{% endif %}">
 
             {% if section.settings.title != blank %}
-                <h2 class="image-with-text__heading">
-                    Organic Fruit Rolls.
+                <h2 class="image-with-text__heading wow bounceInLeft">
+                    ORGANIC FRUIT ROLLS.
                     <br>
-                    And just 70 calories.
+                    AND JUST 70 CALORIES.
                 </h2>
             {% endif %}
 
             {% if section.settings.text != blank %}
-                <div class="image-with-text__text rte">{{ section.settings.text }}</div>
+                <div class="image-with-text__text rte wow bounceInLeft">{{ section.settings.text }}</div>
             {% endif %}
 
             {% if section.settings.button_label != blank and section.settings.button_url != blank %}
-                <a class="image-with-text__button button" href="{{ section.settings.button_url }}">
+                <a class="image-with-text__button button wow bounceInLeft" href="{{ section.settings.button_url }}">
                     {{ section.settings.button_label | escape }}
                 </a>
             {% endif %}

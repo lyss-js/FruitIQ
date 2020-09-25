@@ -999,8 +999,8 @@
       onload="this.media='all';this.onload=null;">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <noscript>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+      <noscript>
       <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}"></noscript>
     <script>/*! loadCSS. [c]2017 Filament Group, Inc. MIT License */!function (c) { "use strict"; function e(e, t, n, o) { var r, i = c.document, d = i.createElement("link"); if (t) r = t; else { var a = (i.body || i.getElementsByTagName("head")[0]).childNodes; r = a[a.length - 1] } var f = i.styleSheets; if (o) for (var l in o) o.hasOwnProperty(l) && d.setAttribute(l, o[l]); d.rel = "stylesheet", d.href = e, d.media = "only x", function e(t) { if (i.body) return t(); setTimeout(function () { e(t) }) }(function () { r.parentNode.insertBefore(d, t ? r : r.nextSibling) }); var s = function (e) { for (var t = d.href, n = f.length; n--;)if (f[n].href === t) return e(); setTimeout(function () { s(e) }) }; function u() { d.addEventListener && d.removeEventListener("load", u), d.media = n || "all" } return d.addEventListener && d.addEventListener("load", u), (d.onloadcssdefined = s)(u), d } "undefined" != typeof exports ? exports.loadCSS = e : c.loadCSS = e }("undefined" != typeof global ? global : this);/*! onloadCSS. (onload callback for loadCSS) [c]2017 Filament Group, Inc. MIT License */function onloadCSS(n, a) { var t; function d() { !t && a && (t = !0, a.call(n)) } n.addEventListener && n.addEventListener("load", d), n.attachEvent && n.attachEvent("onload", d), "isApplicationInstalled" in navigator && "onloadcssdefined" in n && n.onloadcssdefined(d) }
 
@@ -1062,6 +1062,10 @@
       moneyFormatWithCurrency: { { shop.money_with_currency_format | json } }
       };
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+              <script type="text/javascript">
+              new WOW().init();
+              </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

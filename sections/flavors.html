@@ -1,0 +1,141 @@
+<style>
+    .secondary-title {
+        font-size: 4.5rem !important;
+    }
+    .page__title {
+        display: none;
+    }
+    .page {
+        padding-top: 0rem;
+    }
+</style>
+
+<section class="flavors">
+    <div class="container text-center">
+        <h2 class="secondary-title">SAY HELLO TO OUR FAB FOUR</h2>
+        <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/underline.svg?v=1600465955" class="underline" style="margin-bottom: 4%">
+        <div class="row">
+            <div class="col-md-3">
+                <div id="parent">
+                  <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/apricot.png?v=1600465495" class="flavor-img" id="apricot">
+                  <div class="fade-in" id="child">
+                          <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wing-1.svg?v=1600737596" class="flavor-wings" id="apricot-wings-1" alt="wing animation for apricot flavor" />
+                          <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wing-2.svg?v=1600737596" class="flavor-wings" id="apricot-wings-2" alt="wing animation for apricot flavor" />
+                       <h2 class="secondary-title">Intense Apricot</h2>
+                       <h4 class="subtitle">purely good stuff</h4>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-3">
+                <div id="parent">
+                  <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/cranberry-3_1.png?v=1600465498" class="flavor-img" id="cranberry">
+                    <div class="fade-in" id="child">
+                          <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wing-1.svg?v=1600737596" class="flavor-wings" id="cranberry-wings-1" alt="wing animation for cranberry flavor" />
+                          <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wing-2.svg?v=1600737596" class="flavor-wings" id="cranberry-wings-2" alt="wing animation for cranberry flavor" />
+                       <h2 class="secondary-title">Tangy Cranberry</h2>
+                       <h4 class="subtitle">purely good stuff</h4>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-3">
+               <div id="parent">
+                <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/plum-1_1.png?v=1600465599" class="flavor-img" id="plum">
+                  <div class="fade-in" id="child">
+                        <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wing-1.svg?v=1600737596" class="flavor-wings" id="plum-wings-1" alt="wing animation for plum flavor" />
+                        <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wing-2.svg?v=1600737596" class="flavor-wings" id="plum-wings-2" alt="wing animation for plum flavor" />
+                     <h2 class="secondary-title">Sour Plum</h2>
+                     <h4 class="subtitle">purely good stuff</h4>
+                  </div>
+               </div>
+            </div>
+            <div class="col-md-3" onclick="showNutrition()">
+               <div id="parent">
+                <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/shutterstock_235203190_1.png?v=1600465604" class="flavor-img" id="cherry">
+                  <div class="fade-in" id="child">
+                     <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/wings.svg?v=1600733041" class="flavor-wings" id="cherry-wings" alt="wing animation for cherry flavor" />
+                     <h2 class="secondary-title">Tart Cherry</h2>
+                     <h4 class="subtitle">purely good stuff</h4>
+                  </div>
+               </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: -100px">
+            <div class="col-md-3">
+                <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/intense_apricot.png?v=1600754843" class="main-flavor-bag" id="apricot-bag" alt="apricot flavor bag" />
+            </div>
+            <div class="col-md-3">
+                <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/cranberry.png?v=1600754843" class="main-flavor-bag" id="cranberry-bag" alt="cranberry flavor bag" />
+            </div>
+            <div class="col-md-3">
+                <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/plum.png?v=1600754843" class="main-flavor-bag" id="plum-bag" alt="plum flavor bag" />
+            </div>
+            <div class="col-md-3">
+                <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/cherry-bag_2.png?v=1600754885" class="main-flavor-bag" id="cherry-bag" alt="cherry flavor bag" />
+            </div>
+            
+        </div>
+        <div id="showCherry" style="display: none;">
+            <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/popup-underline.svg?v=1600466679" class="popup-underline" />
+
+
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+                        <h2 class="secondary-title">Tart Cherry</h2>
+                        <h4 class="subtitle">purely good stuff</h4>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#nutrition" role="tab" aria-controls="profile" aria-selected="false">                        
+                       <h3 class='ingredients-nutrition'>Ingredients & Nutrition</h3>
+                       <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/underline.svg?v=1600465955">
+                     </a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/cherry-8.png?v=1600466679" class="flavor-bag">
+                        </div>
+                        <div class="col-md-3 float-left" style="text-align: left">
+                            <span class="ingredients">
+                                <i class="fa fa-check"></i> CERTIFIED ORGANIC<br/>
+                                <i class="fa fa-check"></i> 70 CALORIES<br/>
+                                <i class="fa fa-check"></i> COLD PRESSED<br/>
+                                <i class="fa fa-check"></i> ZERO ADDED SUGAR<br/>
+                                <i class="fa fa-check"></i> 4g FIBER<br/>
+                                <i class="fa fa-check"></i> VEGAN<br/>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="row flavor-bar">
+                     <div class="col-md-8">
+                         <h2 style="font-size: 4rem; text-align: left;">Sun-ripened sweetness. Never from concentrate.
+                             <br/> Our Tart Cherry Rolls capture the very best of summer.</h2>
+                     </div>
+                     <div class="col-md-2">
+                         <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/PinClipart.com_schneeflocke-clipart_4874977.png?v=1600653337" class="amazon-logo" alt="amazon-logo" />
+                     </div>
+                     <div class="col-md-2">
+                        <a class="shop-button btn btn-lg float-left" href="https://fruit-iq.myshopify.com/shop/">
+                                    SHOP!
+                        </a>
+                     </div>
+                 </div>
+                </div>
+                <div class="tab-pane fade" id="nutrition" role="tabpanel" aria-labelledby="profile-tab">
+                   <div class="row">
+                      <div class="col-md-6">
+                        <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/ingredients.png?v=1600731090" class="ingredients-list" alt="cherry ingredients list" />
+                      </div>
+                      <div class="col-md-6" style="display:flex; align-items: flex-end;">
+                         <h2 style="font-family: 'BarlowCondensed-Regular' !important;font-size:2.9rem;"><strong>INGREDIENTS:</strong> Organic Dired Cherries, Organic Raisins, Organic Dired Apricots, Organic Apple Fiber, Citric Acid (preservative) </h2>
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <img src="https://cdn.shopify.com/s/files/1/0487/0157/1236/files/main-flavor-underline.svg?v=1600754438" class="flavor-underline" alt="flavors underline" />
+    </div>
+</section>
