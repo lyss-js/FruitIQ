@@ -83,10 +83,14 @@ button {
     font-size: 100%;
     line-height: 1.15;
     margin: 0;
+    background-image: url('https://cdn.shopify.com/s/files/1/0487/0157/1236/files/button-background_1.svg?v=1601256791') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'BarlowCondensed-Semibold';
+    letter-spacing: 0.05rem;
 }
 
 a.shop-button {
-    background-color: #8bbc38;
     color: #ffffff;
     padding: 5% 15%;
     font-size: 2.5rem;
@@ -116,7 +120,6 @@ li.nav-item {
     display: flex;
     align-items: center;
 }
-
 img#cherry-wings {
     margin-top: -85%;
     transform: rotate(-10deg);
@@ -174,6 +177,309 @@ img.amazon-logo {
     width: 70px;
     float: right;
 }
+
+.main-bg {
+    background: url('https://cdn.shopify.com/s/files/1/0487/0157/1236/files/main-img.svg?v=1601257474');
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media (min-width: 640px) {
+    .show {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) {
+    .show {
+        display: block;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-bg {
+        background-position: 290px 335px;
+        background-size: 150vh;        
+    }
+    img.plum-anim {
+        width: 190px;
+        position: absolute;
+        right: 0;
+        margin-right: 29%;
+        bottom: 49%;
+    }
+    img.cranberry-anim {
+        margin-left: 37%;
+        margin-top: 2%;
+        position: absolute;
+    }
+    img.cherry-anim {
+        margin-left: 52%;
+        margin-top: -7%;
+        position: absolute;
+    }
+    img.leaf-anim {
+        margin-left: 36%;
+        margin-top: 8%;
+        position: absolute;
+        width: 138px;
+        transform: rotate(-223deg);
+    }
+    img.swirl1-anim {
+        margin-left: 42%;
+        margin-top: -1%;
+        position: absolute;
+    }
+    img.swirl2-anim {
+        margin-left: 50%;
+        margin-top: -1%;
+        position: absolute;
+    }
+    img.apricot-anim {
+        margin-left: 29%;
+        margin-top: -8%;
+        position: absolute;
+        width: 195px;
+        transform: rotate(-45deg);
+    }
+    img.apricot2-anim {
+        margin-left: 28%;
+        margin-top: -20%;
+        width: 185px;
+        position: absolute;
+    }
+    img.cranberry2-anim {
+        margin-left: 38%;
+        margin-top: -10%;
+        position: absolute;
+        width: 85px;
+    }
+}
+@media (min-width: 1280px) {
+    .show {
+        display: none;
+    }
+    .main-bg {
+        background-position: 0px 375px;
+        background-size: 150vh;        
+    }
+    img.plum-anim {
+        width: 210px;
+        position: absolute;
+        right: 0;
+        margin-right: 16%;
+        bottom: 41%;
+    }
+    img.cranberry-anim {
+        margin-left: 55%;
+        margin-top: 7%;
+        position: absolute;
+        width: 85px;
+        transform: rotate(-156deg);
+    }
+    img.cherry-anim {
+        margin-left: 79%;
+        margin-top: -1%;
+        position: absolute;
+        width: 200px;
+        transform: rotate(57deg);
+    }
+    img.leaf-anim {
+        margin-left: 54%;
+        margin-top: 16%;
+        position: absolute;
+        width: 138px;
+        transform: rotate(-223deg);
+    }
+    img.leaf2-anim {
+        margin-left: 49%;
+        margin-top: -12%;
+        position: absolute;
+        width: 120px;
+        transform: rotate(-158deg);
+    }
+    img.swirl1-anim {
+        margin-left: 65%;
+        margin-top: 3%;
+        position: absolute;
+    }
+    img.swirl2-anim {
+        margin-left: 76%;
+        margin-top: 3%;
+        position: absolute;
+    }
+    img.apricot-anim {
+        margin-left: 47%;
+        margin-top: -6%;
+        position: absolute;
+        width: 195px;
+        transform: rotate(-45deg);
+    }
+    img.apricot2-anim {
+        margin-left: 51%;
+        margin-top: -25%;
+        width: 185px;
+        position: absolute;
+    }
+    img.cranberry2-anim {
+        margin-left: 58.5%;
+        margin-top: -10%;
+        position: absolute;
+        width: 85px;
+    }
+    img.swirl3-anim {
+        width: 55px;
+        position: absolute;
+        margin-left: 46%;
+        margin-top: -7%;
+    }
+    img.cherry2-anim {
+        width: 200px;
+        position: absolute;
+        margin-left: 33%;
+        margin-top: -21%;
+        transform: rotate(-35deg);
+    }
+    img.cranberry3-anim {
+        width: 50px;
+        position: absolute;
+        margin-left: 46%;
+        margin-top: -21%;
+        transform: rotate(-35deg);
+    }
+    img.swirl4-anim {
+        width: 30px;
+        position: absolute;
+        margin-left: 47%;
+        margin-top: -23%;
+    }
+}
+
+@media (min-width: 1340px) {
+    .main-bg {
+        background-position: 0px 375px;
+        background-size: 150vh;        
+    }
+    img.plum-anim {
+        width: 190px;
+        position: absolute;
+        right: 0;
+        margin-right: 22%;
+        bottom: 43%;
+    }
+    img.cranberry-anim {
+        margin-left: 49%;
+        margin-top: 2%;
+        position: absolute;
+    }
+    img.cherry-anim {
+        margin-left: 71%;
+        margin-top: -4%;
+        position: absolute;
+        width: 240px;
+    }
+    img.leaf-anim {
+        margin-left: 47%;
+        margin-top: 16%;
+        position: absolute;
+        width: 138px;
+        transform: rotate(-223deg);
+    }
+    img.swirl1-anim {
+        margin-left: 57%;
+        margin-top: 3%;
+        position: absolute;
+    }
+    img.swirl2-anim {
+        margin-left: 69%;
+        margin-top: 3%;
+        position: absolute;
+    }
+    img.apricot-anim {
+        margin-left: 42%;
+        margin-top: -8%;
+        position: absolute;
+        width: 195px;
+        transform: rotate(-45deg);
+    }
+    img.apricot2-anim {
+        margin-left: 28%;
+        margin-top: -20%;
+        width: 185px;
+        position: absolute;
+    }
+    img.cranberry2-anim {
+        margin-left: 54%;
+        margin-top: -10%;
+        position: absolute;
+        width: 65px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .main-bg {
+        background-position: 290px 335px;
+        background-size: 150vh;        
+    }
+    img.plum-anim {
+        width: 190px;
+        position: absolute;
+        right: 0;
+        margin-right: 29%;
+        bottom: 49%;
+    }
+    img.cranberry-anim {
+        margin-left: 37%;
+        margin-top: 2%;
+        position: absolute;
+    }
+    img.cherry-anim {
+        margin-left: 52%;
+        margin-top: -7%;
+        position: absolute;
+    }
+    img.leaf-anim {
+        margin-left: 36%;
+        margin-top: 8%;
+        position: absolute;
+        width: 138px;
+        transform: rotate(-223deg);
+    }
+    img.swirl1-anim {
+        margin-left: 42%;
+        margin-top: -1%;
+        position: absolute;
+    }
+    img.swirl2-anim {
+        margin-left: 50%;
+        margin-top: -1%;
+        position: absolute;
+    }
+    img.apricot-anim {
+        margin-left: 29%;
+        margin-top: -8%;
+        position: absolute;
+        width: 195px;
+        transform: rotate(-45deg);
+    }
+    img.apricot2-anim {
+        margin-left: 28%;
+        margin-top: -20%;
+        width: 185px;
+        position: absolute;
+    }
+    img.cranberry2-anim {
+        margin-left: 38%;
+        margin-top: -10%;
+        position: absolute;
+        width: 85px;
+    }
+}
+
+
 
 h2 {
     font-family: 'BarlowCondensed-Semibold' !important;
@@ -4737,6 +5043,15 @@ tbody th, tfoot th {
     flex-direction: column;
     margin: 0 auto;
 }
+.image-with-text__inner_about {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4.5rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: 'BarlowCondensed-Regular' !important;
+}
 
 @media only screen and (min-width: 46.85em) {
     .image-with-text__inner {
@@ -4744,10 +5059,20 @@ tbody th, tfoot th {
         margin: 0 auto;
         padding: 5rem 0rem;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1.4fr 1fr;        
         grid-column-gap: 7.5rem;
         column-gap: 7.5rem;
     }
+    .image-with-text__inner_about {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 5rem 0rem;
+        display: grid;
+        grid-template-columns: 0.6fr 1fr;        
+        grid-column-gap: 7.5rem;
+        column-gap: 7.5rem;
+    }
+    
 }
 
 .image-with-text__media {
@@ -4804,6 +5129,13 @@ tbody th, tfoot th {
         flex-grow: 1;
         order: 0;
         display: flex;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    .image-with-text__content_about {
+        flex-grow: 1;
+        order: 0;
+        display: flex;
         justify-content: center;
         flex-direction: column;
     }
@@ -4813,9 +5145,17 @@ tbody th, tfoot th {
     margin-top: 2rem;
     margin-bottom: 0;
 }
+.image-with-text__content_about>*+* {
+    margin-top: 2rem;
+    margin-bottom: 0;
+}
+
 
 @media only screen and (min-width: 46.85em) {
     .image-with-text__content>*+* {
+        margin-top: 2.5rem;
+    }
+    .image-with-text__content_about>*+* {
         margin-top: 2.5rem;
     }
 }
@@ -4823,13 +5163,22 @@ tbody th, tfoot th {
 .image-with-text__content> :first-child {
     margin-top: 0;
 }
+.image-with-text__content_about> :first-child {
+    margin-top: 0;
+}
 
 .image-with-text__content> :last-child {
+    margin-bottom: 4rem;
+}
+.image-with-text__content_about> :last-child {
     margin-bottom: 4rem;
 }
 
 @media only screen and (min-width: 46.85em) {
     .image-with-text__content> :last-child {
+        margin-bottom: 0;
+    }
+    .image-with-text__content_about> :last-child {
         margin-bottom: 0;
     }
 }
@@ -4919,6 +5268,12 @@ tbody th, tfoot th {
 
 .image-with-text__button {
     margin-right: auto;
+    background-image: url('https://cdn.shopify.com/s/files/1/0487/0157/1236/files/button-background_1.svg?v=1601256791') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: unset !important;
+    font-size: 3.5em;
+    padding: 0.3em 0.5em;
 }
 
 .template-404 {

@@ -25,7 +25,6 @@
     "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "social_pinterest_link": "",
     "social_instagram_link": "http:\/\/instagram.com\/shopify",
-    "social_tumblr_link": "",
     "social_snapchat_link": "",
     "social_youtube_link": "",
     "social_vimeo_link": "",
@@ -44,6 +43,7 @@
     "checkout_accent_color": "#197bbd",
     "checkout_button_color": "#197bbd",
     "checkout_error_color": "#e32c2b",
+    "social_tumblr_link": "",
     "sections": {
       "header": {
         "type": "header",
@@ -69,27 +69,12 @@
           "show_locale_selector": false
         }
       },
-      "1600452228643": {
-        "type": "hero-banner",
-        "settings": {
-          "image": "",
-          "title": "Organic",
-          "text": "<p>Now that's deliciously smart.<\/p>",
-          "button_label": "SHOP",
-          "button_url": "shopify:\/\/collections\/all",
-          "desktop_layout": "right",
-          "mobile_layout": "bottom",
-          "secondary_background": "full_background",
-          "text_size": "large",
-          "keep_image_ratio": false,
-          "enable_secondary_text_color": false
-        }
-      },
       "1600455241816": {
         "type": "home-about",
         "settings": {
           "image": "",
-          "title": "Home-about-section",
+          "title": "About-section",
+          "title2": "Second Heading",
           "text": "<p>It&rsquo;s the best thing to happen to Fruit Rolls since&hellip; Fruit Rolls. (We should know, we invented them.)<\/p>",
           "button_label": "Learn More",
           "button_url": "shopify:\/\/pages\/story",
@@ -141,10 +126,27 @@
           "keep_image_ratio": false,
           "enable_secondary_text_color": false
         }
+      },
+      "1601072963130": {
+        "type": "image-with-text",
+        "settings": {
+          "image": "",
+          "title": "ORGANIC FRUIT ROLLS",
+          "title2": "AND JUST 70 CALORIES.",
+          "text": "<p>Now that's&nbsp;Deliciously Smart.<\/p>",
+          "button_label": "SHOP",
+          "button_url": "shopify:\/\/collections\/all",
+          "desktop_layout": "right",
+          "mobile_layout": "bottom",
+          "secondary_background": "full_background",
+          "text_size": "large",
+          "keep_image_ratio": false,
+          "enable_secondary_text_color": false
+        }
       }
     },
     "content_for_index": [
-      "1600452228643",
+      "1601072963130",
       "1600455241816",
       "1600463097281",
       "1600744360693",
