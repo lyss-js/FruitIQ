@@ -36,6 +36,7 @@ html {
 
 body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    overflow-x: hidden;
 }
 
 hr {
@@ -95,6 +96,23 @@ a.shop-button {
     padding: 5% 15%;
     font-size: 2.5rem;
     font-family: 'BarlowCondensed-Semibold';
+}
+div#shopify-section-header {
+    position: fixed;
+}
+button.header__icon.header__icon--button.header__icon--cart {
+    background: unset !important;
+}
+li.footer-menu__item a {
+    color: #ffffff !important;
+}
+.footer-menu {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active { 
     color: #000 !important; 
@@ -179,12 +197,16 @@ img.amazon-logo {
 }
 
 .main-bg {
-    background: url('https://cdn.shopify.com/s/files/1/0487/0157/1236/files/main-img.svg?v=1601257474');
+    background: url('https://cdn.shopify.com/s/files/1/0487/0157/1236/files/bg.gif?v=1601276831');
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.menu-navigation__item--has-dropdown {
+    background: unset !important;
 }
 
 @media (min-width: 640px) {
@@ -402,8 +424,8 @@ img.amazon-logo {
 
 @media (min-width: 1340px) {
     .main-bg {
-        background-position: 0px 375px;
-        background-size: 150vh;        
+        background-position: 310px 50px;
+        background-size: 150vh;
     }
     img.plum-anim {
         width: 190px;
@@ -521,8 +543,9 @@ img.amazon-logo {
 
 @media (min-width: 1500px) {
     .main-bg {
-        background-position: 290px 335px;
-        background-size: 150vh;        
+        background-position: 286px 65px;
+        background-size: 160vh;
+        justify-content: flex-end;      
     }
     img.plum-anim {
         width: 190px;
@@ -732,6 +755,8 @@ img.underline {
     background-repeat: no-repeat;
     padding-top: 6%;
     padding-bottom: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 
@@ -5348,6 +5373,7 @@ tbody th, tfoot th {
 }
 .image-with-text__content_about> :last-child {
     margin-bottom: 4rem;
+    text-decoration: none;
 }
 
 @media only screen and (min-width: 46.85em) {
